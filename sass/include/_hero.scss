@@ -13,6 +13,12 @@
         width: 4rem;
         display: flex;
         background: #00548C;
+        flex-direction: column;
+        padding-top: 2rem;
+
+        .page-link {
+            text-transform: uppercase;
+        }
     }
 
     .main-site {
