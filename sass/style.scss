@@ -1,0 +1,13 @@
+/*
+Template: Main Style File
+*/
+
+/* BOOTSTRAP FILES */
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+/* FONTS */
+@import url('../sass/include/_fonts.scss');
+
+// TEMPLATES
+@import './include/hero';
+@import './include/variable';

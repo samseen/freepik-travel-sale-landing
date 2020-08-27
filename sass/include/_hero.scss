@@ -4,12 +4,20 @@
 }
 
 .hero {
+    width: 100%;
+    display: flex;
+    align-content: flex-start;
+    height: 100vh;
+
     .sidebar {
-        width: 50px;
-        height: 100vh;
-        position: absolute;
-        left: 0;
-        top: 1rem;
-        background: linear-gradient(#00545d, #000729);
+        width: 4rem;
+        display: flex;
+        background: #00548C;
+    }
+
+    .main-site {
+        display: flex;
+        width: 100%;
+        background: red;
     }
 }
