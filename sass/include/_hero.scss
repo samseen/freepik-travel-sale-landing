@@ -48,8 +48,16 @@
     }
 
     .main-site {
-        display: flex;
         width: 100%;
-        background: red;
+        background: url('../../img/maldives.jpg');
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+
+        .travel-page {
+            display: flex;
+            justify-content: center;
+        }
     }
 }
