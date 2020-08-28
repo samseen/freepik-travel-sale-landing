@@ -9,5 +9,6 @@ Template: Main Style File
 @import url('../sass/include/_fonts.scss');
 
 // TEMPLATES
-@import './include/hero';
 @import './include/variable';
+@import './include/global';
+@import './include/hero';

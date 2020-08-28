@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: Montserrat;
 }
 
 .hero {
@@ -12,12 +13,37 @@
     .sidebar {
         width: 4rem;
         display: flex;
-        background: #00548C;
+        background: $primary-blue;
         flex-direction: column;
+        align-content: center;
         padding-top: 2rem;
 
-        .page-link {
-            text-transform: uppercase;
+        .page-buttons {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 80%;
+            height: 80%;
+            border: 1px solid gold;
+            //position: absolute;
+            //overflow: hidden;
+            //padding: 0rem 2rem;
+
+            .page-button {
+                display: flex;
+                border: 1px solid white;
+                background: purple;
+                transform: rotate(-90deg);
+                width: 100%;
+
+                h3 {
+                    text-align: center;
+                }
+            }
+        }
+        
+        .social-buttons {
+
         }
     }
 
