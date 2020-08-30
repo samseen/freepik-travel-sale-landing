@@ -49,8 +49,8 @@
 
     .main-site {
         width: 100%;
-        background: url('../../img/maldives.jpg');
-        background-size: cover;
+        //background: url('../../img/maldives.jpg');
+        //background-size: cover;
         height: 100vh;
         display: flex;
         justify-content: center;
@@ -58,6 +58,10 @@
         .travel-page {
             display: flex;
             justify-content: center;
+            background: url('../../img/maldives.jpg');
+            background-size: cover;
+            height: 80%;
+            width: 100%;
         }
     }
 }
