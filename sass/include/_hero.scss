@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Montserrat;
+    font-family: $mont;
 }
 
 .hero {
@@ -69,6 +69,21 @@
 
             h1.world {
                 font-size: 8rem;
+            }
+
+            h3.red {
+                color: $primary-red;
+            }
+
+            a {
+                cursor: pointer;
+                color: white;
+                border: 1px solid white;
+                padding: .5rem 1rem;
+            }
+
+            a:hover {
+                text-decoration: none;
             }
         }
 
